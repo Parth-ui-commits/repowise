@@ -1134,6 +1134,8 @@ def test_apex_assertions_and_test_cases():
     for helper in ("makeData", "compute"):
         assert not by_name[helper].is_test_case, helper
 
+
+
 def test_java_switch_arm_comment_does_not_increase_ccn():
     _require_language("java")
 
